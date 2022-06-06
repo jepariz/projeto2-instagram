@@ -278,6 +278,10 @@ span{
     font-weight: 500;
 }
 
+.feed-mobile{
+    display:none;
+}
+
 /* Siderbar */
 
 /* Perfil */
