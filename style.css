@@ -1,0 +1,378 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Topo */
+
+.topo{
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.topo ion-icon{
+    font-size: 22px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px; 
+}
+
+.divider1{
+    height: 20px;
+    width: 1px;
+    background-color: #DBDBDB;
+}
+
+input{
+    width: 215px;
+    height: 25px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #979797;
+    text-align: center;
+}
+
+.icones{
+    display: flex;
+    gap: 20px;
+}
+
+.topo-mobile{
+    display: none;
+}
+
+/* Stories */
+
+.stories{
+    margin-top: 88px;
+    margin-bottom: 20px;
+    width: 614px;
+    height: 118px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    gap: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.story{
+    height: 118px;
+    position: relative;
+}
+
+.story-background{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.page{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.page-name{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 85px;
+    
+}
+
+.pn1{
+    left: 33px;
+}
+
+.pn2{
+    left: 29px;
+}
+
+.pn3{
+    left: 27px;
+}
+
+.pn4{
+    left: 22px;
+}
+
+.pn5{
+    left: 25px;
+}
+
+.pn6{
+    left: 20px;
+}
+
+.pn7{
+    left: 19px;
+}
+
+.pn8{
+    left: 27px;
+}
+
+.arrow{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    right: 18px;
+}
+
+/* Posts */
+
+.post{
+    margin-bottom: 50px;
+    width: 614px;
+    height: 749px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+}
+
+.topo-post{
+    width: 614px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.page-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-data img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.page-data p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.post-options{
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.post-content{
+    width: 100%;
+    height: 612px;
+   object-fit: cover;
+}
+
+.post-bottom{
+    height: 76px;
+}
+
+.reactions{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.reactions ion-icon {
+    font-size: 22px;
+}
+
+.reactions-left{
+    display: flex;
+    gap: 15px;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px;
+    padding: 15px;
+}
+
+.likes img{
+    width: 20px;
+    height: 20px;
+}
+
+.likes p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.likes span{
+    font-weight: 500;
+}
+
+.post-content-2{
+    width: 100%;
+    height: 612px;
+    object-fit: contain;
+}
+
+
+/* Sidebar */
+
+.sidebar{
+    margin-top: 110px;
+    width: 293px;
+}
+
+.info-user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-user img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #8E8E8E;
+    font-weight: 300;
+}
+
+.profile{
+    font-size: 14px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.other-pages{
+    margin-top: 25px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.cta p:nth-child(1){
+    color: #8E8E8E;
+}
+
+.page-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggested-page-info{
+    display: flex;
+    gap: 10px;
+}
+
+.suggested-page-name p:nth-child(1){
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.suggested-page-name p:nth-child(2){
+    margin-top: 5px;
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.page-info p{
+    color: #139EF2;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.links{
+    margin-top: 30px;
+}
+
+.links p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+
+.links p:nth-child(2){
+    margin-top: 20px;
+}
+
+@media (max-width: 935px){
+
+    .sidebar{
+        display: none;
+    }
+
+}
+
+@media (max-width: 614px){
+
+    .topo{
+        display: none;
+    }
+
+    .topo-mobile{
+        width: 100%;
+        height: 54px;
+        background-color: #fff;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .topo-mobile ion-icon{
+        font-size: 22px;
+    }
+
+}
