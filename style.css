@@ -244,12 +244,20 @@ input{
     object-fit: contain;
 }
 
+.footer-mobile{
+    display: none;
+}
+
 
 /* Sidebar */
 
 .sidebar{
     margin-top: 110px;
     width: 293px;
+    height: 400px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
 }
 
 .info-user{
@@ -351,6 +359,10 @@ input{
 
 @media (max-width: 614px){
 
+    body{
+        width: 100%;
+    } 
+
     .topo{
         display: none;
     }
@@ -372,6 +384,41 @@ input{
     }
 
     .topo-mobile ion-icon{
+        font-size: 22px;
+    }
+
+
+    .stories{
+        display: flex;
+        width: 100%;
+        background-color: #FAFAFA;
+        border: none;
+        margin-top: 60px;
+        margin-bottom: 0;  
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .timeline, .posts, .post, .topo-post{
+        width: 100%;
+    }
+
+    .footer-mobile{
+        width: 100%;
+        height: 54px;
+        background-color: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer-mobile ion-icon{
         font-size: 22px;
     }
 
