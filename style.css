@@ -149,7 +149,7 @@ input{
 .post{
     margin-bottom: 50px;
     width: 614px;
-    height: 749px;
+    height: 949px;
     background-color: #fff;
     border: 1px solid #DBDBDB;
 }
@@ -248,6 +248,93 @@ input{
     display: none;
 }
 
+video{
+    object-fit: cover;
+}
+
+/* Bônus - comentários */
+
+.caption p{
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-left: 18px;
+}
+
+.caption span{
+    font-weight: 500;
+}
+
+.comments-number{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8E8E8E;
+    box-sizing: border-box;
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 18px;
+    margin-top: 12px;
+}
+
+.comment p, .comment span {
+    font-size: 14px;
+}
+
+.comment span{
+    font-weight: 500;
+}
+
+.time{
+    font-size: 11px;
+    color: #8E8E8E;
+    padding: 10px 18px;
+}
+
+.post-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.comentar{
+    display: flex;
+    align-items: center;
+}
+
+.comentar img{
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.comentar input{
+    border: none;
+    background-color: #fff;
+    text-align: left;
+    font-size: 16px;
+}
+
+.post-comment button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: #fff;
+    color: #B2DFFC;
+    transition: color 300ms;
+}
+
+.post-comment button:hover{
+    color: #0095F6;
+}
 
 /* Sidebar */
 
